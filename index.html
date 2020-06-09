@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        input{
+            width: 150px;
+        }
+        input[type="checkbox"],input[type="radio"]{
+            width: 10px;
+            margin-left: 20px;
+        }
+        
+    </style>
+    <title>HTML</title>
+</head>
+<body>
+    <h1>Unified Modeling Language Theory Test</h1>
+    <p><text>Test Subject: Unified Modeling Language&nbsp&nbsp&nbspTime:&nbsp&nbsp&nbsp&nbsp100minute&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspScore:100</text></p>
+    <form action="/test" method="POST">
+        <p>
+            Class:&nbsp&nbsp&nbsp<select name="stu-class" style="width: 150px;">
+                <option value="Class1" selected="selected">Class1</option>
+                <option value="Class2">Class2</option>
+                <option value="Class3">Class3</option>
+                <option value="Class4">Class4</option>
+                </select>&nbsp&nbsp&nbsp
+                Student ID:<input type="text" name="studentid">&nbsp&nbsp&nbsp
+                Name:<input type="text" name="studentname">&nbsp&nbsp&nbsp
+        </p>
+        <h2>1、 Fill in the blanks(5 points per space,20 points total)</h2>
+        <p>1. The full name of UML in Chinese is:<input type="text" name="umlfullname"></p>
+        <p>2. The most prominent feature of the object is:<input type="text" name="ofeature1">&nbsp<input type="text" name="ofeature2">&nbsp<input type="text" name="ofeature3"></p>
+        <h2>2、 Single choice question(10 points per space,20 points total)</h2>
+        <p><text style="margin-left: 10px;">1.The relationship between UML and software engineering is:</text></p> 
+        <p><input type="radio"  name="firstquestion" value="A" />(A) UML id software engineering</p>
+        <p><input type="radio"  name="firstquestion" value="B" />(B) UML participates in several stages of the software engineering</p>
+        <p><input type="radio"  name="firstquestion" value="C" />(C) UML has nothing to do with software engineering</p>
+        <p><input type="radio"  name="firstquestion" value="D" />(D) UML is part of software engineering</p>
+        <p><text style="margin-left: 10px;">2.Java language support:</text></p> 
+        <p><input type="radio"  name="secondquestion" value="A" />(A) Single inheritance</p>
+        <p><input type="radio"  name="secondquestion" value="B" />(B) Multiple inheritance</p>
+        <p><input type="radio"  name="secondquestion" value="C" />(C) Single inheritance and Multiple inheritance support</p>
+        <p><input type="radio"  name="secondquestion" value="D" />(D) Single inheritance and Multiple inheritance are not support</p>
+        <h2>3、 Multiple choice question(10 points per space,20 points total)</h2>
+        <p><text style="margin-left: 10px;">1.The granularity of the use case is divided into the following three:</text></p>  
+        <p><input type="checkbox"  name="mulfirstquestion1" value="A" />(A) Overview level</p>
+        <p><input type="checkbox"  name="mulfirstquestion2" value="B" />(B) Demand level</p>
+        <p><input type="checkbox"  name="mulfirstquestion3" value="C" />(C) User target level</p>
+        <p><input type="checkbox"  name="mulfirstquestion4" value="D" />(D) Sub-funtion level</p>
+        <p><text style="margin-left: 10px;">2.The class diagram consists of which of the following three parts:</text></p>  
+        <p><input type="checkbox"  name="mulsecondquestion1" value="A" />(A) Name</p>
+        <p><input type="checkbox"  name="mulsecondquestion2" value="B" />(B) Attribute</p>
+        <p><input type="checkbox"  name="mulsecondquestion3" value="C" />(C) Operation</p>
+        <p><input type="checkbox"  name="mulsecondquestion4" value="D" />(D) Function</p>
+        <h2>4、 True or False(10 points per space,20 points total)</h2>
+        <p><text style="margin-left: 10px;">1.Use case diagrams are only used to communicate and communicate with customers to determine demand。
+            <input type="radio" style="width: 10px; margin-left: 20px;" name="tfans1" value="t" />√
+            <input type="radio" style="width: 10px; margin-left: 20px;" name="tfans1" value="f" />×
+        </text></p> 
+        <p><text style="margin-left: 10px;">2.In the state diagram,the termination state allows any number of multiples in a state diagram。
+            <input type="radio"  name="tfans2" value="t" />√
+            <input type="radio"  name="tfans2" value="f" />×
+        </text></p> 
+        <h2>5、 Short answer question(20 points per space,20 points total)</h2>
+        <p>1.Briefly describ what the model is and how it bahaves?</p>
+        <textarea type="text" name="shortans" style="width: 750px;height: 200px;"></textarea>
+        <p><button type="submit">calculating score</button></p>
+    </form>
+</body>
+</html>
